@@ -1,0 +1,111 @@
+
+
+
+
+<head> 
+    <title>Html5</title> 
+    <meta charset="UTF-8">  
+    <style type="text/css"> 
+    .interlineado { line-height: 140%;} 
+    body 
+    { height: 842px; width: 595px; /* to centre page on screen*/ margin-left: auto; margin-right: auto; }
+  
+    </style> 
+</head>
+
+<div id="app">
+
+  <h1>Trabajo Práctico - 08MBID - Visualización de Datos</h1>
+  <h2>Máster de Big Data y Ciencia de Datos - VIU</h2>
+  
+  <span class="negrita">Nombre: </span> Juan Diego González de la Torre
+  <br>
+  <span class="negrita">Fecha: </span>27/04/2023
+  <br>
+
+  <span class="negrita">URL:</span>
+  <a href="https://js-j6mts8.stackblitz.io" target="_blank">
+    https://js-j6mts8.stackblitz.io
+  </a>
+  <br>
+
+  <span class="negrita">URL:</span>
+  <a href="https://colab.research.google.com/drive/1zrL9WXoCGITbSjwuis60b3uiI9duZQsO?usp=sharing" target="_blank">
+    Google Collaboratory
+  </a>
+  <br>
+
+  <span class="negrita">Fuente de datos original:</span>
+  <a href="https://estadisticasdecriminalidad.ses.mir.es/publico/portalestadistico/portal/datos.html?type=pcaxis&path=/Datos1/&file=pcaxis" target="_blank">
+    Portal estadístico de criminalidad - Ministerio del Interior
+  </a>
+  <br><br>
+
+  <h1>Introducción</h1>
+
+    <h2>Contexto</h2>
+      <p class="interlineado">
+
+        <br>
+      </p>
+
+      <h2>Objetivo</h2>
+        <p class="interlineado">
+        
+          <br><br>
+        </p>
+
+          <h2>Dataset</h2>
+          <p class="interlineado">
+          
+            <br><br>
+          </p>
+
+  <h1>Metodología</h1>
+    <p class="interlineado">
+      La visualización de datos es el proceso de crear una representación visual de las tendencias, los patrones y relaciones presentes en los datos. Esto se logra mediante la creación de gráficos, diagramas, mapas y otros tipos de visualizaciones que permiten la representación visual de la forma más adecuada posible para los datos involucrados y el objetivo concreto de la visualización.
+      <br><br>
+      La visualización de datos en la era del big data cobra aún más importancia si cabe, ya que se convierte en la palanca que ayuda a la interpretabilidad de los mismos y la conversión de estos datos en información y la información en conocimiento. En el siglo 21 podemos contar historias a partir de los datos y buenas visualizaciones.
+      <br><br>
+      Existen en el mercado multitud de herramientas de visualización, algunas de caracter básico orientadas al público no especializado, como Excel o Google Sheets con sus funciones gráficas; otras muy específicas como SAP Analytics Cloud o Qlik Sense como soluciones cloud para inteligencia de negocios y analítica aumentada; existen también librerías y herramientas de visualización en lenguagues como Python, R o Javascript, y muchos otros servicios de visualización de datos bajo suscripción con más o menos funcionalidades y opciones de integración como DataWrapper; muy usado en periodismo, o los servicios de visualización y exploración de datos de AWS o Microsoft Azure.
+      <br><br>
+      En este trabajo trataremos de responder a las preguntaas planteadas más arriba usando dos herramientas de visualización diferentes: DataWrapper y Python. La elección se fundamenta en que, en función de la cuestión que deseamos resolver, es suficiente el uso de herramientas tipo autoservicio como DataWrapper para la visualización rápida y sencilla de los datos, mientras que otros preguntas requerirán mayor versatibilidad para la herramienta utilizada, tanto para el manejo como para la representación de los datos. El objetivo es obtener unas visualizaciones comprensibles por público no especializado pero acostumbrado a tratar con gráficas sencillas, por lo que se evitarán gráficas específicamente utilizadas en estadística como gráficos de cajas y bigotes o distribuciones en forma de violín, etc.
+      <br>
+    </p>
+
+    <br>
+  <h1>Resultados</h1>
+    <p class="interlineado">
+
+      
+      <iframe title="Delitos en España por Comunidades - 2021" aria-label="Bar Chart" id="datawrapper-chart-z9kwG" src="https://datawrapper.dwcdn.net/z9kwG/7/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="522" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+      </script>
+
+      <iframe title="Población en España por Comunidades - 2021" aria-label="Bar Chart" id="datawrapper-chart-NCwJb" src="https://datawrapper.dwcdn.net/NCwJb/5/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="522" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+      </script>
+
+      <br /><br />
+      <iframe title="Delitos por cada 100 mil habitantes - 2021" aria-label="Map" id="datawrapper-chart-Y73G7" src="https://datawrapper.dwcdn.net/Y73G7/6/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="474" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+      </script>
+      
+
+      <br /><br />
+      <img src="https://stackblitz.com/files/js-y2hacs/github/juanphys/js-snebnz/main/Barras.jpg" alt="Barras">
+      <br /><br />
+
+      <br /><br />
+      <img src="https://stackblitz.com/files/js-y2hacs/github/juanphys/js-snebnz/main/serie.jpg" alt="serie">
+      <br /><br />
+
+
+      <h3>¿Cómo ha evolucionado el dengue en sendas ciudades a lo largo del tiempo?</h3>
+
+        Para responder a esta pregunta necesitaremos graficar el número de casos frente al tiempo. Los gráficos de líneas son adecuados para visualizar series temporales y ver así posibles tendencias y/o estacionalidades. DataWrapper hace esto sencillo y atractivo a la vista.<br /> <br /> 
+      
+       
+  </p>
+
+  <br>
+  <h1>Conclusiones</h1>
+
+</div>
